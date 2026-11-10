@@ -591,9 +591,6 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
   <project path="src/third_party/khronos"
            name="chromiumos/third_party/khronos"
            revision="refs/heads/master" />
-  <project path="src/third_party/labpack/files"
-           name="chromiumos/third_party/labpack"
-           groups="labtools" />
   <project path="src/third_party/lexmark-fax-pnh"
            name="chromiumos/third_party/lexmark-fax-pnh"
            revision="refs/heads/master" />
