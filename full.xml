@@ -732,7 +732,6 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
   <project path="src/third_party/optofidelity_TPPT_analysis"
            name="chromiumos/third_party/optofidelity_TPPT_analysis"
            groups="notdefault,touch-firmware-tests" />
-  <!-- TODO(b/429236971): remove the AOSP checkout after ebuilds are updated -->
   <project path="src/third_party/perfetto"
            name="external/github.com/google/perfetto"
            revision="bd153cb9c843f35cce632e2f21b8cd04b551576e" />  <!-- autoroll:perfetto -->
@@ -878,10 +877,6 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
            revision="refs/heads/master">
     <annotation name="branch-mode" value="pin" />
   </project>
-  <project path="src/aosp/external/perfetto"
-           remote="aosp"
-           name="platform/external/perfetto"
-           revision="refs/heads/master" />
   <project path="src/aosp/external/puffin"
            remote="aosp"
            name="platform/external/puffin"
