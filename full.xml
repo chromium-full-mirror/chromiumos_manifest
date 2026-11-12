@@ -821,7 +821,7 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
   <project path="src/chromium/depot_tools"
            remote="chromium"
            name="chromium/tools/depot_tools"
-           revision="43956b3e74de59b07bf8931ba9a472d622fe86a7"
+           revision="1afcf0756e47f3a6ee82d7736b9fcda2d57b268e"
            groups="minilayout,paygen,firmware,buildtools,labtools,ti50" />  <!-- autoroll:depot_tools -->
   <project path="src/chromium/src/components/policy"
            remote="chromium"
