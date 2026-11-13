@@ -528,14 +528,6 @@ See https://www.chromium.org/chromium-os/developer-library/guides/development/de
            name="chromiumos/third_party/flashrom"
            revision="refs/heads/crosec-legacy-drv"
            groups="firmware" />
-  <project path="src/third_party/fsp/cnl/edk2"
-           name="chromiumos/third_party/edk2"
-           revision="refs/heads/chromeos-cnl"
-           groups="firmware" />
-  <project path="src/third_party/fsp/glk/edk2"
-           name="chromiumos/third_party/edk2"
-           revision="refs/heads/chromeos-glk"
-           groups="firmware" />
   <project path="src/third_party/fwupd"
            name="chromiumos/third_party/fwupd"
            revision="refs/heads/fwupd-2.1.2" />
